@@ -1,0 +1,86 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-size: 16px;
+    font-family: 'Quicksand', sans-serif;
+}
+header{
+    height: 8vh;
+    background-color: rgb(57, 57, 216);
+    text-align: center;
+    color: white;
+    font-size: larger;
+    line-height: 8vh;
+    margin-bottom: 6vh;
+}
+
+footer{
+    height: 5vh;
+    position:absolute;
+    bottom: 0px;
+    background-color: rgb(57, 57, 216);
+    width: 100vw;
+    text-align: center;
+    color: white;
+    font-size: larger;
+    line-height: 5vh;
+}
+section{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.container{
+    box-shadow: rgba(0, 0, 0, 0.05) 0px 0px 0px 1px;
+    display: flex;
+    flex-direction: column;
+    padding: 10px;
+}
+
+#message_container{
+width: 80vw;
+height: 500px;
+overflow: scroll;
+
+}
+
+form{
+    display: flex;
+    justify-content: space-around;
+    align-self: center;
+    margin-top: 10px;
+}
+
+form>input{
+    border: none;
+    border-bottom: 2px solid rgb(116, 91, 91);
+    outline: none;
+    width: 60%;
+}
+
+button {
+    background-color: rgb(57, 57, 216); /* Green */
+    border: none;
+    color: white;
+    padding: 20px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+    border-radius: 10px;
+  }
+
+  .msg{
+      padding: 10px 5px;
+      border-radius: 10px;
+      display: inline-block;
+      min-width: 80px;
+      margin-bottom: 10px;
+      box-shadow: rgba(0, 0, 0, 0.1) 0px 1px 3px 0px, rgba(0, 0, 0, 0.06) 0px 1px 2px 0px;  }
+  .msg_user{
+      font-size: 14px;
+      font-weight:bolder;
+  }
